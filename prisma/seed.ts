@@ -1,4 +1,4 @@
-import { prisma } from "./prisma"
+import { prisma } from "../src/lib/prisma"
 
 async function seed() {
   await prisma.event.create({
